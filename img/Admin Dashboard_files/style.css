@@ -1,0 +1,26 @@
+/* Set margin and padding to 0 */
+*{
+    margin: 0;
+    padding: 0;
+}
+/*set the body to 100% height */
+body{
+    height: 100%;
+}
+/* */
+
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+  
+  
+}
+/* */
+
+.dashboard{
+display: grid;
+grid-template-columns: 1fr 3fr 1fr;
+gap: 15px;
+}
+/* */
